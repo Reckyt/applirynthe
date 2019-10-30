@@ -6,7 +6,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <button className="home_play">Play</button>
+        <a href="/map/Map13">Play</a>
       </div>
     );
   }
