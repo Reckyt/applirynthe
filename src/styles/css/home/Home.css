@@ -16,7 +16,7 @@
 }
 
 #name {
-  width: 30%;
+  width: 25%;
   font-size: 2vh;
   padding: 20px 0px 20px 10px;
   background-color: black;
@@ -31,15 +31,18 @@
 }
 
 .home_play {
-  width: 30%;
   color: rgb(231, 21, 21);
   background-color: black;
   font-size: 5vh;
-  padding: 1vh 0vh 1vh 0vh;
+  padding: 1.5vh 2vh 1.5vh 2vh;
   margin-top: 5vh;
   margin-bottom: 10vh;
   border: solid #b7a262 2px;
-  padding: 10px 0px 10px 0px;
   border-radius: 40px;
   font-family: creepster;
+}
+
+.link_map {
+  display: flex;
+  justify-content: center;
 }

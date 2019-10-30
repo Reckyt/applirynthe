@@ -20,10 +20,8 @@ export default class Home extends Component {
             maxlength="42"
             placeholder="Quel est ton nom mon mignon ?"
           />
-          <Link>
-            <button href="/map/Map13" className="home_play">
-              Viens jouer avec moi
-            </button>
+          <Link className="link_map" href="/map/Map13">
+            <button className="home_play"> Viens jouer avec moi</button>
           </Link>
         </div>
       </div>
