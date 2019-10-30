@@ -1,4 +1,6 @@
 import React from "react";
+import Monsters from "../src/components/monsters/Monster1";
+import "./App.css";
 import { Switch, Route } from "react-router-dom";
 
 import Home from "./components/home/Home";
@@ -48,6 +50,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Switch>
+          <Route exact path="/monster" component={Monsters} />
           <Route exact path="/" component={Home} />
           <Route
             path="/map/Map25"
@@ -199,7 +202,7 @@ class App extends React.Component {
               <Map {...routeProps} location={this.state.map[0]} />
             )}
           />
-
+          >>>>>>> fdc8237ee963da0b08c66b7b8bd5a62e07073a08
           <Route path="/enigma/Enigma1" component={Enigma1} />
           <Route path="/monsters/Monster1" component={Monster1} />
           <Route path="/walls/Wall1" component={Wall1} />
