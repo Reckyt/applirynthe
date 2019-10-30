@@ -1,0 +1,25 @@
+.Jigsaw-Block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 2px solid silver;
+    border-radius: 8px, 8px;
+    background: #000000;
+}
+
+.Jigsaw-Avatar {
+
+}
+
+.Jigsaw-Image {
+    height: 96px;
+    margin: 16px;
+    border: 2px solid silver;
+    border-radius: 50%;
+}
+
+.Jigsaw-Quote {
+    margin-top: 16px;
+    color: white;
+    text-align: left;
+}
