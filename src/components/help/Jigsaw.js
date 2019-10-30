@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/css/help/Jigsaw.css';
+import ReactTypingEffect from 'react-typing-effect';
 
 class Jigsaw extends React.Component {
 
@@ -10,7 +11,14 @@ class Jigsaw extends React.Component {
         return(
             <div className="Jigsaw-Block">
                 <div className="Jigsaw-Avatar"><img className="Jigsaw-Image" alt="Jigsaw" title="Jigsaw" src={require('../../styles/assets/jigsawAvatar.png')} /></div>
-                <div id='JigsawQuote' className="Jigsaw-Quote">{this.props.quote}</div>
+                <div className="Jigsaw-Quote">
+                    <ReactTypingEffect
+                        speed={1}
+                        eraseDelay={50000}
+                        cursor="|"
+                        text={this.props.quote}
+                    />
+                </div>
             </div>
         )
     }
