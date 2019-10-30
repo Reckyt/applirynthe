@@ -31,8 +31,6 @@ export default class Home extends Component {
             "Je peux dire nombre de choses, comme parler de la situation économique du Soudan entre 1887 et 1956, période estimée phare par bon nombre d'historiens économiques spécialistes du continent africain."
           }
         />
-
-        <a href="/map/Map13">Play</a>
       </div>
     );
   }
