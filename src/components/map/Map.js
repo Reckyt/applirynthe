@@ -7,6 +7,8 @@ export default class Map extends Component {
         this.setState({location: this.props.position})
     }
 
+    
+
     render() {
         return (
             <div className="Map">

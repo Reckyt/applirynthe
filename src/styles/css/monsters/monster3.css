@@ -1,137 +1,145 @@
-.Monsters3{
-    background-image: url("../../assets/dracula.png");
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
+.Monsters3 {
+  background-image: url("../../assets/dracula.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
 }
 
 .Monsters_Inputs {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    font-size: 1.3rem;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 1.3rem;
 }
 
-.Monsters_Input1{
-    margin: 3% 0;
-    border-radius: 45px;
-    
-    border: 2px solid silver;
-    background: black;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 8px;
-    overflow: hidden;
-    position: relative;
-    width: 30%;
+.Monsters_Input1 {
+  margin: 3% 0;
+  border-radius: 45px;
 
+  border: 2px solid silver;
+  background: black;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
 }
 
-.Monsters_Input2{
-    margin: 3% 0;
-    border-radius: 45px;
-    
-    border: 2px solid silver;
-    background: black;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 8px;
-    overflow: hidden;
-    position: relative;
-    width: 30%;
+.Monsters_Input2 {
+  margin: 3% 0;
+  border-radius: 45px;
 
+  border: 2px solid silver;
+  background: black;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
 }
 
-.Monsters_Input3{
-    margin: 3% 0;
-    border-radius: 45px;
-        
-    border: 2px solid silver;
-    background: black;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 8px;
-    overflow: hidden;
-    position: relative;
-    width: 30%;
+.Monsters_Input3 {
+  margin: 3% 0;
+  border-radius: 45px;
 
+  border: 2px solid silver;
+  background: black;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
 }
 
-.Monsters_Input4{
-    margin: 3% 0 8% 0;
-    border-radius: 45px;
-    
-    border: 2px solid silver;
-    background: black;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 8px;
-    overflow: hidden;
-    position: relative;
-    width: 30%;
+.Monsters_Input4 {
+  margin: 3% 0 8% 0;
+  border-radius: 45px;
 
+  border: 2px solid silver;
+  background: black;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
 }
 
 .Monsters_Input_Check {
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-.Monsters_Input_Text{
-    text-align: center;
-    font-size: 1.5em;
-    margin: 2%
+.Monsters_Input_Text {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 2%;
 }
 
-.Possible_Answers{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.Possible_Answers {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.Monsters_Submit{
-    border: 3px solid darkred;
-    background: black;
-    color: red;
-    font-size: 4rem;
-    font-family: "Creepster", cursive, "Helvetica Neue", sans-serif;
-    margin: 10%;
-    width: 100%;
-    border-radius: 45px;
+.Monsters_Submit {
+  border: 3px solid darkred;
+  background: black;
+  color: red;
+  font-size: 4rem;
+  font-family: "Creepster", cursive, "Helvetica Neue", sans-serif;
+  margin: 10%;
+  width: 100%;
+  border-radius: 45px;
 }
 
-.Monsters_None{
-    position: absolute;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: red;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
+.Monsters_None {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  width: 100%;
+  height: 100%;
+  font-size: 5vh;
+  z-index: 100;
 }
 
-.div_button{
-    margin: 0 5% 8% 0;
-    border-radius: 45px;
-
+.div_button {
+  margin: 0 5% 8% 0;
+  border-radius: 45px;
 }
 
+.Monsters_None2 {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: green;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  font-size: 5vh;
+}
