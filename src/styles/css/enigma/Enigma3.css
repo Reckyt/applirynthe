@@ -1,0 +1,10 @@
+.popcorn {
+  background-image: url("../../assets/popcorn.png");
+  background-size: cover;
+}
+
+.instructionsEnigma3 {
+    position: absolute;
+    width: 25vw;
+    margin: 50px;
+  }
