@@ -29,12 +29,13 @@ export default class Enigma3 extends Component {
             }
           />
         </div>
-        <div className="div_pop"></div>
+
         <div className="div_flex">
           <div className="reponse3">
             <input
               id="reponse3"
               type="text"
+              placeholder=" écris ici"
               value={this.state.title}
               onChange={this.handleChange}
             ></input>

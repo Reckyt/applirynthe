@@ -14,7 +14,7 @@ class Jigsaw extends React.Component {
                 <div className="Jigsaw-Quote">
                     <ReactTypingEffect
                         speed={30}
-                        eraseDelay={50000}
+                        eraseDelay={5000000}
                         cursor=" "
                         text={this.props.quote}
                     />
