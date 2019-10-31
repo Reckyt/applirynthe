@@ -207,7 +207,6 @@ class App extends React.Component {
               <Map {...routeProps} location={this.state.map[0]} />
             )}
           />
-          <Route exact path="/" component={Home} />
           <Route path="/enigma/Enigma1" component={Enigma1} />
           <Route path="/monsters/Monster1" component={Monsters} />
           <Route path="/walls/Wall1" component={Wall1} />
