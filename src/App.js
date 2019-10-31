@@ -6,6 +6,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import Map from "./components/map/Map";
 import Enigma1 from "./components/enigma/Enigma1";
+import Enigma2 from "./components/enigma2/Enigma2";
 import Monster1 from "./components/monsters/Monster1";
 import Wall1 from "./components/walls/Wall1";
 import Exit from "./components/exit/Exit";
@@ -203,6 +204,7 @@ class App extends React.Component {
             )}
           />
           <Route path="/enigma/Enigma1" component={Enigma1} />
+          <Route path="/enigma2/Enigma2" component={Enigma2} />
           <Route path="/monsters/Monster1" component={Monster1} />
           <Route path="/walls/Wall1" component={Wall1} />
           <Route path="/exit/Exit" component={Exit} />

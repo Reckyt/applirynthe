@@ -1,0 +1,13 @@
+.container_EnigmaTwo {
+  background-image: url("../../assets/hunted-house.png");
+  background-color: #171717;
+  height: 100vh;
+  background-size: contain;
+  display: flex;
+}
+
+.container-img {
+}
+
+.img-question-movie {
+}
