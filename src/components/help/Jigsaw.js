@@ -13,7 +13,7 @@ class Jigsaw extends React.Component {
                 <div className="Jigsaw-Avatar"><img className="Jigsaw-Image" alt="Jigsaw" title="Jigsaw" src={require('../../styles/assets/jigsawAvatar.png')} /></div>
                 <div className="Jigsaw-Quote">
                     <ReactTypingEffect
-                        speed={1}
+                        speed={30}
                         eraseDelay={50000}
                         cursor="|"
                         text={this.props.quote}
