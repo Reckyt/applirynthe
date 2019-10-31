@@ -7,6 +7,9 @@ import Home from "./components/home/Home";
 import Map from "./components/map/Map";
 import Enigma1 from "./components/enigma/Enigma1";
 import Wall1 from "./components/walls/Wall1";
+import WallIncassable from "./components/walls/WallIncassable";
+import WallBreak1 from "./components/walls/WallBreak1";
+import WallBreak2 from "./components/walls/WallBreak2";
 import Exit from "./components/exit/Exit";
 import Monsters2 from "../src/components/monsters/Monster2";
 import Monsters3 from "../src/components/monsters/Monster3";
@@ -206,12 +209,14 @@ class App extends React.Component {
               <Map {...routeProps} location={this.state.map[0]} />
             )}
           />
-          <Route exact path="/" component={Home} />
           <Route path="/enigma/Enigma1" component={Enigma1} />
           <Route path="/monsters/Monster1" component={Monsters} />
           <Route path="/monsters/Monster2" component={Monsters2} />
           <Route path="/monsters/Monster3" component={Monsters3} />
           <Route path="/walls/Wall1" component={Wall1} />
+          <Route path="/walls/WallIncassable" component={WallIncassable} />
+          <Route path="/walls/WallBreak1" component={WallBreak1} />
+          <Route path="/walls/WallBreak2" component={WallBreak2} />
           <Route path="/exit/Exit" component={Exit} />
         </Switch>
       </div>

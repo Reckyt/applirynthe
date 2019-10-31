@@ -1,0 +1,12 @@
+.wall {
+  background-image: url("../../assets/wall.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.instructionsWall {
+  position: absolute;
+  width: 25vw;
+  margin: 50px;
+}

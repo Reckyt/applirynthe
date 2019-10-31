@@ -1,0 +1,12 @@
+.break2 {
+  background-image: url("../../assets/wall.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.instructionsWallBreak2 {
+  position: absolute;
+  width: 25vw;
+  margin: 50px;
+}
