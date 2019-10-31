@@ -116,7 +116,9 @@ class Monsters extends Component{
                 <p className="Monsters_Input_Text">La réponse D</p>
                     <input type="checkbox" onClick={this.check4}   id="checkFour" className="Monsters_Input_Check" />
                 </div>
-                <button type="submit" className="Monsters_Submit" onClick={this.submit}>SUBMIT</button>
+                <div className="div_button">
+                    <button type="submit" className="Monsters_Submit" onClick={this.submit}>SUBMIT</button>
+                </div>
             </div>
         )
     }
