@@ -35,6 +35,7 @@ class Enigma2 extends Component {
             className="img-question-movie"
           />
         </div>
+        <div></div>
       </div>
     );
   }
