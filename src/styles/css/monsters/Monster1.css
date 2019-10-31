@@ -17,62 +17,70 @@
 }
 
 .Monsters_Input1{
-    margin: 10%;
+    margin: 3% 0;
+    border-radius: 45px;
+    
     border: 2px solid silver;
     background: black;
     color: red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-left: 8px;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 30%;
 
 }
 
 .Monsters_Input2{
-    margin: 10%;
+    margin: 3% 0;
+    border-radius: 45px;
+    
     border: 2px solid silver;
     background: black;
     color: red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-left: 8px;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 30%;
 
 }
 
 .Monsters_Input3{
-    margin: 10%;
+    margin: 3% 0;
+    border-radius: 45px;
+        
     border: 2px solid silver;
     background: black;
     color: red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-left: 8px;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 30%;
 
 }
 
 .Monsters_Input4{
-    margin: 10%;
+    margin: 3% 0 8% 0;
+    border-radius: 45px;
+    
     border: 2px solid silver;
     background: black;
     color: red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-left: 8px;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 30%;
 
 }
 
@@ -87,18 +95,26 @@
 
 .Monsters_Input_Text{
     text-align: center;
+    font-size: 2em;
+    margin: 2%
 }
 
-.div_button{
+.Possible_Answers{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .Monsters_Submit{
     border: 3px solid darkred;
     background: black;
     color: red;
-    font-size: 2.2rem;
+    font-size: 4rem;
     font-family: "Creepster", cursive, "Helvetica Neue", sans-serif;
     margin: 10%;
+    width: 100%;
+    border-radius: 45px;
 }
 
 .Monsters_None{
@@ -112,3 +128,10 @@
     height: 100%;
     z-index: 100;
 }
+
+.div_button{
+    margin: 0 5% 8% 0;
+    border-radius: 45px;
+
+}
+
