@@ -7,6 +7,7 @@ import Home from "./components/home/Home";
 import Map from "./components/map/Map";
 import Enigma1 from "./components/enigma/Enigma1";
 import Enigma2 from "./components/enigma/Enigma2";
+import Enigma3 from "./components/enigma/Enigma3";
 import Monster1 from "./components/monsters/Monster1";
 import Wall1 from "./components/walls/Wall1";
 import Exit from "./components/exit/Exit";
@@ -205,6 +206,7 @@ class App extends React.Component {
           />
           <Route path="/enigma/Enigma1" component={Enigma1} />
           <Route path="/enigma/Enigma2" component={Enigma2} />
+          <Route path="/enigma/Enigma3" component={Enigma3} />
           <Route path="/monsters/Monster1" component={Monster1} />
           <Route path="/walls/Wall1" component={Wall1} />
           <Route path="/exit/Exit" component={Exit} />
