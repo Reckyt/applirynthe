@@ -54,7 +54,7 @@ export default class Enigma1 extends Component {
         <Link to="/map/Map12">
           <button
             type="submit"
-            className="Monsters_Submit"
+            className="MonstersSubmit"
             onClick={this.submit}
           >
             Submit
