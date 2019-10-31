@@ -8,46 +8,12 @@ export default class Map extends Component {
         super(props);
         this.state = {};
 
-        this.clickOnWall1=this.clickOnWall1.bind(this);
-        this.clickOnWall2=this.clickOnWall2.bind(this);
-        this.clickOnWall3=this.clickOnWall3.bind(this);
-        this.clickOnWall4=this.clickOnWall4.bind(this);
-        this.clickOnWall5=this.clickOnWall5.bind(this);
-        this.clickOnWall6=this.clickOnWall6.bind(this);
-        this.back=this.back.bind(this);
     }
 
     componentDidMount() {
         this.setState({location: this.props.position})
     }
 
-    clickOnWall1() {
-        document.getElementById("retour1").style.display = "flex";
-        }
-    
-    clickOnWall2() {
-        document.getElementById("retour2").style.display = "flex";
-        }
-
-    clickOnWall3() {
-        document.getElementById("retour3").style.display = "flex";
-        }
-    
-    clickOnWall4() {
-        document.getElementById("retour4").style.display = "flex";
-        }
-
-    clickOnWall5() {
-        document.getElementById("retour5").style.display = "flex";
-        }
-        
-    clickOnWall6() {
-        document.getElementById("retour6").style.display = "flex";
-        }
-
-    back() {
-        document.getElementById("retour5").style.display = "none";
-    }
 
     render() {
         return (
@@ -226,7 +192,7 @@ export default class Map extends Component {
                     {(this.props.location === 22) 
                         ? <img className="Map-Icon" alt="You" src={require('../../styles/assets/userAvatar.png')} /> 
                         : (this.props.location === 21 || this.props.location === 17 || this.props.location === 23)
-                            ? <a href="/map/Map22"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/questionMark.png')} /></a>
+                            ? <a href="/enigma/Enigma2"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/dracula-icon.png')} /></a>
                             : "" } 
                 </div>
 
@@ -253,38 +219,7 @@ export default class Map extends Component {
                             ? <a href="/exit/Exit"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/exit.png')} /></a>
                             : "" } 
                 </div>
-                <div className="backWhereYouFrom" id="retour1">
-                    <p>Ho mince, un mur...</p>
-                    <Link to="/">
-                        <button>Revenir en arrière</button>
-                    </Link>
-                </div>
-                <div className="backWhereYouFrom" id="retour2">
-                    <p>Ho mince, un mur...</p>
-                    <Link to="/">
-                        <button>Revenir en arrière</button>
-                    </Link>
-                </div>
-                <div className="backWhereYouFrom" id="retour3">
-                    <p>Ho mince, un mur...</p>
-                    <Link to="/">
-                        <button>Revenir en arrière</button>
-                    </Link>
-                </div>
-                <div className="backWhereYouFrom" id="retour4">
-                    <p>Ho mince, un mur...</p>
-                        <button onClick={this.back}>Revenir en arrière</button>
-                </div>
-                <div className="backWhereYouFrom" id="retour5">
-                    <p>Ho mince, un mur...</p>
-                        <button>Revenir en arrière</button>
-                </div>
-                <div className="backWhereYouFrom" id="retour6">
-                    <p>Ho mince, un mur...</p>
-                    <Link to="/">
-                        <button>Revenir en arrière</button>
-                    </Link>
-                </div>
+
                 </div>
             </div>  
         );  

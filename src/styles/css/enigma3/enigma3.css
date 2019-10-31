@@ -12,6 +12,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  margin-top: 4em;
 }
 
 .all-img {
@@ -77,4 +78,9 @@
   height: 100%;
   z-index: 100;
   font-size: 5vh;
+}
+
+.jigsawEnigma3 {
+  position: absolute;
+  width: 40%;
 }

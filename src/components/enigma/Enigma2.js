@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import "../../styles/css/enigma2/enigma2.css";
 import { Link } from "react-router-dom";
-// import Jigsaw from "../help/Jigsaw";
+import Jigsaw from "../help/Jigsaw";
 
 class Enigma2 extends Component {
   constructor() {
@@ -53,6 +53,9 @@ class Enigma2 extends Component {
   render() {
     return (
       <div className="container_EnigmaTwo">
+        <div className="jigsawEnigma2">
+          <Jigsaw quote={"Quel est le réalisateur de ce film ?"} />
+        </div>
         <div className="container-img">
           <img
             src={this.state.movies.posterUrl}

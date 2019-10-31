@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import "../../styles/css/enigma3/enigma3.css";
 import { Link } from "react-router-dom";
-// import Jigsaw from "../help/Jigsaw";
+import Jigsaw from "../help/Jigsaw";
 
 class Enigma3 extends Component {
   constructor() {
@@ -22,7 +22,6 @@ class Enigma3 extends Component {
   handleChange(event) {
     this.setState({ answer: event.target.value });
     console.log(this.state.answer);
-
   }
 
   submit() {
@@ -44,12 +43,16 @@ class Enigma3 extends Component {
           movies: res.data.movie
         });
       });
-
   }
 
   render() {
     return (
       <div className="container_EnigmaTwo">
+        <div className="jigsawEnigma3">
+          <Jigsaw
+            quote={"Sauras-tu trouver la bonne affiche, gna gna gna !!!"}
+          />
+        </div>
         <div className="container-img">
           <div className="all-img">
             <img src={require("../../styles/assets/para-2.png")} alt="test" />
@@ -63,7 +66,6 @@ class Enigma3 extends Component {
               src={require("../../styles/assets/para-3.png")}
               alt={this.state.movies.title}
             />
-
           </div>
 
           <input
@@ -82,7 +84,7 @@ class Enigma3 extends Component {
 
         <div className="answer" id="continu">
           <p>Yeah ! Bien joué !</p>
-          <Link to="/exit/Exit">
+          <Link to="/map/Map24">
             <button>Continuer</button>
           </Link>
         </div>
@@ -98,4 +100,3 @@ class Enigma3 extends Component {
 }
 
 export default Enigma3;
-
