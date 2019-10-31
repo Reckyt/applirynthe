@@ -206,7 +206,7 @@ class App extends React.Component {
           <Route path="/walls/Wall1" component={Wall1} />
           <Route path="/exit/Exit" component={Exit} />
         </Switch>
-        <Timer />
+        {/* <Timer /> */}
       </div>
     );
   }

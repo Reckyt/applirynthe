@@ -1,7 +1,7 @@
 .enigma1 {
   background-image: url("../../assets/chambre2.jpg");
   background-size: cover;
-  position: relative;
+  /* position: relative; */
 }
 
 .div_play {
@@ -31,4 +31,26 @@
 
 #audio {
   display: none;
+}
+
+.instructions {
+  position: absolute;
+  width: 25vw;
+  margin: 50px;
+}
+
+#reponse {
+  width: 40vw;
+  /* height: 6vh; */
+  font-family: creepster;
+  color: red;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  font-size: 3vh;
+  padding: 20px;
+}
+
+.reponse {
+  margin-top: 10px;
 }
