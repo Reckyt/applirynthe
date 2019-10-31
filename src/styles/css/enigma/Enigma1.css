@@ -2,13 +2,13 @@
   background-image: url("../../assets/chambre2.jpg");
   background-size: cover;
   /* position: relative; */
+  height: 100vh;
 }
 
 .div_play {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .MonstersSubmit {
@@ -26,7 +26,8 @@
 
 .play {
   background-image: url("../../assets/play.png");
-  position: relative;
+  position: absolute;
+  top: 50%;
 }
 
 #audio {
