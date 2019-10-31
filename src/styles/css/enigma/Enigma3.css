@@ -1,10 +1,44 @@
 .popcorn {
-  background-image: url("../../assets/popcorn.png");
+  background-image: url("../../assets/popcorn.jpg");
   background-size: cover;
 }
 
 .instructionsEnigma3 {
-    position: absolute;
-    width: 25vw;
-    margin: 50px;
-  }
+  position: absolute;
+  width: 25vw;
+  margin: 50px;
+}
+
+.div_pop {
+  height: 100vh;
+}
+
+.EnigmaSubmit3 {
+  width: 180px;
+  height: 90px;
+  margin-left: 80vw;
+  margin-bottom: 10vh;
+  border-radius: 45px;
+  border: 3px solid orange;
+  background-color: black;
+  color: red;
+  font-family: creepster;
+  font-size: 5vh;
+  position: relative;
+}
+
+#reponse3 {
+  width: 40vw;
+  font-family: creepster;
+  color: red;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  font-size: 3vh;
+  padding: 20px;
+}
+
+.reponse3 {
+  margin-top: 10px;
+  position: relative;
+}
