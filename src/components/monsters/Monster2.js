@@ -91,34 +91,48 @@ class Monsters2 extends Component{
     render(){
         return(
             <div className="Monsters2">
-                <Jigsaw quote={"Un zombie es face a toi, que fais-tu ?"}/>
+
                 <div className="Monsters_None" id="continu">
-                    <Link to="/map/Map1"><button>CONTINUE</button></Link>
+                    <p>Quelle puissance, le Zombie es mort ... encore</p>
+                    <Link to="/map/Map1"><button>Continuer</button></Link>
                 </div>
+
                 <div className="Monsters_None" id="retour">
-                    <p>VOUS ETES MORT !!</p>
-                    <Link to="/"><button>MENU</button></Link>
+                    <p>Tu es désormais zombifié, dommaaaage !</p>
+                    <Link to="/"><button>Recommencer ?</button></Link>
                 </div>
-                <div className="Monsters_Input1" id="check1">
-                    <p className="Monsters_Input_Text">Tu l'invites à manger un morceau</p>
-                    <input type="checkbox" onClick={this.check1}   id="checkOne" className="Monsters_Input_Check" value="Ta belle-mère"/>
-                    
+
+                <div className="Monsters_Inputs">
+                    <div className="Possible_Answers">
+                    <div className="Monsters_Input1" id="check1">
+                        <p className="Monsters_Input_Text">Tu l'invites à manger un morceau</p>
+                        <input type="checkbox" onClick={this.check1}   id="checkOne" className="Monsters_Input_Check" value="Ta belle-mère"/>    
+                    </div>
+
+                    <div className="Monsters_Input2" id="check2">
+                    <p className="Monsters_Input_Text">Il à l'air triste, un calin lui ferai du bien</p>
+                        <input type="checkbox" onClick={this.check2}  id="checkTwo" className="Monsters_Input_Check" />
+                    </div>
+
+                    <div className="Monsters_Input3" id="check3">
+                    <p className="Monsters_Input_Text">Tu lui défonces le cerveau avec tes poings</p>
+                        <input type="checkbox" onClick={this.check3}   id="checkThree" className="Monsters_Input_Check" />
+                    </div>
+
+                    <div className="Monsters_Input4" id="check4">
+                    <p className="Monsters_Input_Text">Tu lui plantes un pieu dans le coeur</p>
+                        <input type="checkbox" onClick={this.check4}   id="checkFour" className="Monsters_Input_Check" />
+                    </div>
+                    </div>
+
+                    <div className="div_button">
+                        <button type="submit" className="Monsters_Submit" onClick={this.submit}>SUBMIT</button>
+                    </div>
                 </div>
-                <div className="Monsters_Input2" id="check2">
-                <p className="Monsters_Input_Text">Il a l'air triste, un calin lui ferai du bien</p>
-                    <input type="checkbox" onClick={this.check2}  id="checkTwo" className="Monsters_Input_Check" />
-                </div>
-                <div className="Monsters_Input3" id="check3">
-                <p className="Monsters_Input_Text">Tu lui défonces le cerveau avec tes poings</p>
-                    <input type="checkbox" onClick={this.check3}   id="checkThree" className="Monsters_Input_Check" />
-                </div>
-                <div className="Monsters_Input4" id="check4">
-                <p className="Monsters_Input_Text">Tu lui plantes un pieu dans le coeur</p>
-                    <input type="checkbox" onClick={this.check4}   id="checkFour" className="Monsters_Input_Check" />
-                </div>
-                <div className="div_button">
-                    <button type="submit" className="Monsters_Submit" onClick={this.submit}>SUBMIT</button>
-                </div>
+
+                <Jigsaw quote={"Un zombie est face à toi, que fas-tu ?"}/>
+
+
             </div>
         )
     }

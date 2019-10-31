@@ -3,7 +3,7 @@ import "../../styles/css/monsters/monster3.css";
 import { Link } from 'react-router-dom'
 import Jigsaw from '../help/Jigsaw'
 
-class Monsters3 extends Component{
+class Monsters extends Component{
     constructor(props) {
         super(props);
         this.state = {
@@ -91,37 +91,51 @@ class Monsters3 extends Component{
     render(){
         return(
             <div className="Monsters3">
-                <Jigsaw quote={"Tu rencontres Dracula dans la maison. Quelle décision prends-tu ?"}/>
+
                 <div className="Monsters_None" id="continu">
-                    <Link to="/map/Map17"><button>CONTINUE</button></Link>
+                    <p>Ton morceau de palette te permets de vaincre le terrifiant Dracula</p>
+                    <Link to="/map/Map17"><button>Continuer</button></Link>
                 </div>
+
                 <div className="Monsters_None" id="retour">
-                    <p>VOUS ETES MORT !!</p>
-                    <Link to="/"><button>MENU</button></Link>
+                    <p>Dracula se sert de toi comme d'un thermos !</p>
+                    <Link to="/"><button>Recommencer ?</button></Link>
                 </div>
-                <div className="Monsters_Input1" id="check1">
-                    <p className="Monsters_Input_Text">Tu lui plantes un pieu dans le coeur</p>
-                    <input type="checkbox" onClick={this.check1}   id="checkOne" className="Monsters_Input_Check" value="Ta belle-mère"/>
-                    
+
+                <div className="Monsters_Inputs">
+                    <div className="Possible_Answers">
+                    <div className="Monsters_Input1" id="check1">
+                        <p className="Monsters_Input_Text">Tu lui plantes un pieu dans le coeur</p>
+                        <input type="checkbox" onClick={this.check1}   id="checkOne" className="Monsters_Input_Check" value="Ta belle-mère"/>    
+                    </div>
+
+                    <div className="Monsters_Input2" id="check2">
+                    <p className="Monsters_Input_Text">Tu t'évanouis</p>
+                        <input type="checkbox" onClick={this.check2}  id="checkTwo" className="Monsters_Input_Check" />
+                    </div>
+
+                    <div className="Monsters_Input3" id="check3">
+                    <p className="Monsters_Input_Text">Tu appelles Kevin qui le "casse en deux"</p>
+                        <input type="checkbox" onClick={this.check3}   id="checkThree" className="Monsters_Input_Check" />
+                    </div>
+
+                    <div className="Monsters_Input4" id="check4">
+                    <p className="Monsters_Input_Text">Tu le combats a l'épée</p>
+                        <input type="checkbox" onClick={this.check4}   id="checkFour" className="Monsters_Input_Check" />
+                    </div>
+                    </div>
+
+                    <div className="div_button">
+                        <button type="submit" className="Monsters_Submit" onClick={this.submit}>SUBMIT</button>
+                    </div>
                 </div>
-                <div className="Monsters_Input2" id="check2">
-                <p className="Monsters_Input_Text">Tu t'évanouis</p>
-                    <input type="checkbox" onClick={this.check2}  id="checkTwo" className="Monsters_Input_Check" />
-                </div>
-                <div className="Monsters_Input3" id="check3">
-                <p className="Monsters_Input_Text">Tu appelles Kévin qui le "casse en deux"</p>
-                    <input type="checkbox" onClick={this.check3}   id="checkThree" className="Monsters_Input_Check" />
-                </div>
-                <div className="Monsters_Input4" id="check4">
-                <p className="Monsters_Input_Text">Tu le combats a l'épée</p>
-                    <input type="checkbox" onClick={this.check4}   id="checkFour" className="Monsters_Input_Check" />
-                </div>
-                <div className="div_button">
-                    <button type="submit" className="Monsters_Submit" onClick={this.submit}>SUBMIT</button>
-                </div>
+
+                <Jigsaw quote={"Tu rencontres Dracula dans la maison. Quelle décision prends-tu ?"}/>
+
+
             </div>
         )
     }
 }
 
-export default Monsters3
+export default Monsters
