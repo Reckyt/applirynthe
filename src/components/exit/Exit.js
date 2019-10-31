@@ -1,19 +1,24 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
+import '../../styles/css/exit/Exit.css'
 
 export default class Exit extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isExitResolved : true
+      
     }
   }
 
 
   render() {
     return (
-      <div>
-          <img alt="placeholder" src="https://la-bas.org/IMG/arton5412.gif?1548418135" />
-          <a href="/map/Map12">Fini</a>
+      <div className="Exit">
+        <div className="Exit_Text">
+          <i>"[username] il faut arrêter votre délire de maison hantée. Suivez-moi, il est temps de prendre vos cachets !"</i>
+        </div>
+        <button className="Exit_Button">Hello !!!</button>
+          
       </div>
     );
   }
