@@ -9,7 +9,6 @@ import Enigma1 from "./components/enigma/Enigma1";
 import Monster1 from "./components/monsters/Monster1";
 import Wall1 from "./components/walls/Wall1";
 import Exit from "./components/exit/Exit";
-import Timer from "./components/timer/Timer";
 import "./App.css";
 
 class App extends React.Component {
@@ -46,9 +45,15 @@ class App extends React.Component {
     };
   }
 
+  navbarAppear() {
+    document.getElementById('App-Navbar').style.display="flex";
+  }
+
   render() {
     return (
       <div className="App">
+        <div id="App-Navbar" className="App-Navbar">
+        </div>
         <Switch>
           <Route exact path="/monster" component={Monsters} />
           <Route exact path="/" component={Home} />
@@ -207,7 +212,6 @@ class App extends React.Component {
           <Route path="/walls/Wall1" component={Wall1} />
           <Route path="/exit/Exit" component={Exit} />
         </Switch>
-        <Timer />
       </div>
     );
   }

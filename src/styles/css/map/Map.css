@@ -1,3 +1,11 @@
+.Map {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 96px);

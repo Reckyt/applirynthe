@@ -9,6 +9,7 @@ export default class Map extends Component {
 
     render() {
         return (
+            <div className="Map">
             <div className="parent">
 
                 <div className="div1">
@@ -210,7 +211,7 @@ export default class Map extends Component {
                             ? <a href="/map/Map25">go</a>
                             : "go" } 
                 </div>
-
+                </div>
             </div>  
         );  
     }
