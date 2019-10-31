@@ -90,13 +90,13 @@ class Monsters extends Component{
 
     render(){
         return(
-            <div className="Monsters">
+            <div className="Monsters1">
                 <Jigsaw quote={"Tu es face à un Alien. Qui dois-tu appeler ?"}/>
                 <div className="Monsters_None" id="continu">
                     <Link to="/map/Map4"><button>CONTINUE</button></Link>
                 </div>
                 <div className="Monsters_None" id="retour">
-                    <p>VOUS ETES MORTS !!</p>
+                    <p>VOUS ETES MORT !!</p>
                     <Link to="/"><button>MENU</button></Link>
                 </div>
                 <div className="Monsters_Input1" id="check1">

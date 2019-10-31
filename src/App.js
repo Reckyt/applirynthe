@@ -8,6 +8,8 @@ import Map from "./components/map/Map";
 import Enigma1 from "./components/enigma/Enigma1";
 import Wall1 from "./components/walls/Wall1";
 import Exit from "./components/exit/Exit";
+import Monsters2 from "../src/components/monsters/Monster2";
+import Monsters3 from "../src/components/monsters/Monster3";
 import "./App.css";
 
 class App extends React.Component {
@@ -207,6 +209,8 @@ class App extends React.Component {
           <Route exact path="/" component={Home} />
           <Route path="/enigma/Enigma1" component={Enigma1} />
           <Route path="/monsters/Monster1" component={Monsters} />
+          <Route path="/monsters/Monster2" component={Monsters2} />
+          <Route path="/monsters/Monster3" component={Monsters3} />
           <Route path="/walls/Wall1" component={Wall1} />
           <Route path="/exit/Exit" component={Exit} />
         </Switch>
