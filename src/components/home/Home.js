@@ -21,6 +21,7 @@ export default class Home extends Component {
             minLength="4"
             maxLength="42"
             placeholder="Quel est ton nom mon mignon ?"
+            value=""
           />
           <Link className="link_map" to="/map/Map13">
             <button className="home_play">Viens jouer avec moi</button>
