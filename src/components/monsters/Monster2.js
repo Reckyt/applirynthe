@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import "../../styles/css/monsters/Monster1.css";
+import "../../styles/css/monsters/Monster2.css";
 import { Link } from 'react-router-dom'
-import Jigsaw from '../help/Jigsaw'
 
-class Monsters extends Component{
+class Monsters2 extends Component{
     constructor(props) {
         super(props);
         this.state = {
@@ -91,7 +90,6 @@ class Monsters extends Component{
     render(){
         return(
             <div className="Monsters">
-                <Jigsaw quote={"Tu es face à un Alien. Qui dois-tu appeler ?"}/>
                 <div className="Monsters_None" id="continu">
                     <Link to="/map/Map4"><button>CONTINUE</button></Link>
                 </div>
@@ -122,4 +120,4 @@ class Monsters extends Component{
     }
 }
 
-export default Monsters
+export default Monsters2

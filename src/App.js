@@ -6,10 +6,8 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import Map from "./components/map/Map";
 import Enigma1 from "./components/enigma/Enigma1";
-import Monster1 from "./components/monsters/Monster1";
 import Wall1 from "./components/walls/Wall1";
 import Exit from "./components/exit/Exit";
-import Timer from "./components/timer/Timer";
 import "./App.css";
 
 class App extends React.Component {
@@ -46,9 +44,14 @@ class App extends React.Component {
     };
   }
 
+  navbarAppear() {
+    document.getElementById("App-Navbar").style.display = "flex";
+  }
+
   render() {
     return (
       <div className="App">
+        <div id="App-Navbar" className="App-Navbar"></div>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route
@@ -201,15 +204,14 @@ class App extends React.Component {
               <Map {...routeProps} location={this.state.map[0]} />
             )}
           />
+          <Route exact path="/" component={Home} />
           <Route path="/enigma/Enigma1" component={Enigma1} />
           <Route path="/monsters/Monster1" component={Monsters} />
           <Route path="/walls/Wall1" component={Wall1} />
           <Route path="/exit/Exit" component={Exit} />
         </Switch>
-        {/* <Timer /> */}
       </div>
     );
   }
 }
-
 export default App;
