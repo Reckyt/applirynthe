@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .Exit{
     background-image: url("../../assets/Sortie.png");
     width: 100vw;
@@ -35,38 +35,3 @@
     text-decoration: none;
     color: red;
 }
-=======
-.Exit {
-  background-image: url("../../assets/Sortie.png");
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-.Exit_Text {
-  font-family: initial;
-  color: white;
-  font-size: 2em;
-  width: 40%;
-  margin-left: 18%;
-  margin-bottom: 30%;
-  text-align: left;
-}
-.Exit_Button {
-  width: 17%;
-  height: 8%;
-  margin-right: 6%;
-  margin-bottom: 6%;
-  border-radius: 45px;
-  background-color: black;
-  border: 3px solid red;
-  font-family: "Creepster", cursive, "Helvetica Neue", sans-serif;
-  font-size: 2em;
-}
-.link {
-  text-decoration: none;
-  color: red;
-}
->>>>>>> 4f648be44d473be89020b7cab41de05733d3264d

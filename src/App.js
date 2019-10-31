@@ -6,13 +6,8 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import Map from "./components/map/Map";
 import Enigma1 from "./components/enigma/Enigma1";
-<<<<<<< HEAD
-import Enigma3 from "./components/enigma/Enigma3";
-=======
 import Enigma2 from "./components/enigma/Enigma2";
 import Enigma3 from "./components/enigma/Enigma3";
-import Monster1 from "./components/monsters/Monster1";
->>>>>>> 292a6857fa9c9efda599eb1379321ed620a87b2d
 import Wall1 from "./components/walls/Wall1";
 import WallIncassable from "./components/walls/WallIncassable";
 import WallBreak1 from "./components/walls/WallBreak1";
