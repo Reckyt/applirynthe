@@ -8,6 +8,8 @@ import Map from "./components/map/Map";
 import Enigma1 from "./components/enigma/Enigma1";
 import Wall1 from "./components/walls/Wall1";
 import WallIncassable from "./components/walls/WallIncassable";
+import WallBreak1 from "./components/walls/WallBreak1";
+import WallBreak2 from "./components/walls/WallBreak2";
 import Exit from "./components/exit/Exit";
 import "./App.css";
 
@@ -210,6 +212,8 @@ class App extends React.Component {
           <Route path="/monsters/Monster1" component={Monsters} />
           <Route path="/walls/Wall1" component={Wall1} />
           <Route path="/walls/WallIncassable" component={WallIncassable} />
+          <Route path="/walls/WallBreak1" component={WallBreak1} />
+          <Route path="/walls/WallBreak2" component={WallBreak2} />
           <Route path="/exit/Exit" component={Exit} />
         </Switch>
       </div>
