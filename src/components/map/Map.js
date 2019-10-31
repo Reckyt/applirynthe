@@ -80,7 +80,7 @@ export default class Map extends Component {
                     {(this.props.location === 9) 
                         ? <img className="Map-Icon" alt="You" src={require('../../styles/assets/userAvatar.png')} /> 
                         : (this.props.location === 4 || this.props.location === 8 || this.props.location === 10 || this.props.location === 14)
-                            ? <a href="/map/Map9"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/questionMark.png')} /></a>
+                            ? <img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/wall.png')} />
                             : "" }
                 </div>
 
@@ -120,7 +120,7 @@ export default class Map extends Component {
                     {(this.props.location === 14) 
                         ? <img className="Map-Icon" alt="You" src={require('../../styles/assets/userAvatar.png')} /> 
                         : (this.props.location === 13 || this.props.location === 9 || this.props.location === 15 || this.props.location === 19)
-                            ? <a href="/map/Map14"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/questionMark.png')} /></a>
+                            ? <img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/wall.png')} />
                             : "" }
                 </div>
 
@@ -152,7 +152,7 @@ export default class Map extends Component {
                     {(this.props.location === 18) 
                         ? <img className="Map-Icon" alt="You" src={require('../../styles/assets/userAvatar.png')} /> 
                         : (this.props.location === 13 || this.props.location === 17 || this.props.location === 19 || this.props.location === 23)
-                            ? <a href="/map/Map18"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/questionMark.png')} /></a>
+                            ? <img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/wall.png')} />
                             : "" }
                 </div>
 
@@ -160,7 +160,7 @@ export default class Map extends Component {
                     {(this.props.location === 19) 
                         ? <img className="Map-Icon" alt="You" src={require('../../styles/assets/userAvatar.png')} /> 
                         : (this.props.location === 14 || this.props.location === 18 || this.props.location === 20 || this.props.location === 24)
-                            ? <a href="/map/Map19"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/questionMark.png')} /></a>
+                            ? <img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/wall.png')} />
                             : "" }
                 </div>
 
@@ -183,7 +183,7 @@ export default class Map extends Component {
                 <div className="div22">
                     {(this.props.location === 22) 
                         ? <img className="Map-Icon" alt="You" src={require('../../styles/assets/userAvatar.png')} /> 
-                        : (this.props.location === 21 || this.props.location === 17 || this.props.location === 22)
+                        : (this.props.location === 21 || this.props.location === 17 || this.props.location === 23)
                             ? <a href="/map/Map22"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/questionMark.png')} /></a>
                             : "" } 
                 </div>
@@ -191,7 +191,7 @@ export default class Map extends Component {
                 <div className="div23">
                     {(this.props.location === 23) 
                         ? <img className="Map-Icon" alt="You" src={require('../../styles/assets/userAvatar.png')} /> 
-                        : (this.props.location === 22 || this.props.location === 18 || this.props.location === 23)
+                        : (this.props.location === 22 || this.props.location === 18 || this.props.location === 24)
                             ? <a href="/map/Map23"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/questionMark.png')} /></a>
                             : "" } 
                 </div>
@@ -208,7 +208,7 @@ export default class Map extends Component {
                 {(this.props.location === 25) 
                         ? <img className="Map-Icon" alt="You" src={require('../../styles/assets/userAvatar.png')} /> 
                         : (this.props.location === 24 || this.props.location === 20)
-                            ? <a href="/map/Map25"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/questionMark.png')} /></a>
+                            ? <a href="/map/Map25"><img className="Map-Icon" alt="Case 1" src={require('../../styles/assets/exit.png')} /></a>
                             : "" } 
                 </div>
                 </div>
