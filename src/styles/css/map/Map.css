@@ -6,6 +6,15 @@
   min-height: 100vh;
   background: #000000;
   color: white;
+  background-image: url("../../assets//imageacceuil.jpg");
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.centrage {
+  margin: auto;
 }
 
 .parent {
