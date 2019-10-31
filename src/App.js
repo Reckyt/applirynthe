@@ -6,7 +6,6 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import Map from "./components/map/Map";
 import Enigma1 from "./components/enigma/Enigma1";
-import Monster1 from "./components/monsters/Monster1";
 import Wall1 from "./components/walls/Wall1";
 import Exit from "./components/exit/Exit";
 import Timer from "./components/timer/Timer";
@@ -50,7 +49,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <Switch>
-          <Route exact path="/monster" component={Monsters} />
           <Route exact path="/" component={Home} />
           <Route
             path="/map/Map25"
@@ -202,8 +200,9 @@ class App extends React.Component {
               <Map {...routeProps} location={this.state.map[0]} />
             )}
           />
+          <Route exact path = "/" component={Home} />
           <Route path="/enigma/Enigma1" component={Enigma1} />
-          <Route path="/monsters/Monster1" component={Monster1} />
+          <Route path="/monsters/Monster1" component={Monsters} />
           <Route path="/walls/Wall1" component={Wall1} />
           <Route path="/exit/Exit" component={Exit} />
         </Switch>
