@@ -17,7 +17,7 @@ export default class Exit extends Component {
         <div className="Exit_Text">
           <i>"[username] il faut arrêter votre délire de maison hantée. Suivez-moi, il est temps de prendre vos cachets !"</i>
         </div>
-        <button className="Exit_Button">Hello !!!</button>
+        <button className="Exit_Button"><Link to="/" className="link">Redevenir fou !!!</Link></button>
           
       </div>
     );

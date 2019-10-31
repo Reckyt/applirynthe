@@ -19,8 +19,18 @@
 }
 
 .Exit_Button{
-    width: 10%;
-    height: 5%;
-    margin-right: 12%;
-    margin-bottom: 10%;
+    width: 17%;
+    height: 8%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+    border-radius: 45px;
+    background-color: black;
+    border: 3px solid red;
+    font-family: "Creepster", cursive, "Helvetica Neue", sans-serif;
+    font-size: 2em;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
 }
