@@ -63,6 +63,7 @@ class Enigma3 extends Component {
               src={require("../../styles/assets/para-3.png")}
               alt={this.state.movies.title}
             />
+
           </div>
 
           <input
